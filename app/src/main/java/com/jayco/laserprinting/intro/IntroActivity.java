@@ -10,7 +10,7 @@ import com.jayco.laserprinting.MainActivity;
 import com.jayco.laserprinting.R;
 
 /**
- * Created by FX603 on 2016-07-15.
+ * 인트로 액티비티
  */
 public class IntroActivity extends Activity {
 
@@ -19,10 +19,12 @@ public class IntroActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-
         init();
     }
 
+    /**
+     * 인트로 화면 지연
+     */
     private void init() {
         Handler handler = new Handler() {
             @Override
