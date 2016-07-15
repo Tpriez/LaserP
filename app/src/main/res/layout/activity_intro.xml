@@ -2,13 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/intro_title"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="JayCo."
-        android:textSize="50dp"
-        android:layout_centerInParent="true"
-        android:gravity="center"/>
+        android:layout_height="match_parent"
+        android:background="@color/introBackgroundColor">
+
+        <TextView
+            android:id="@+id/intro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JayCo."
+            android:textSize="50dp"
+            android:textColor="@color/introTextColor"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
 
 </RelativeLayout>

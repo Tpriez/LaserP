@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.widget.TextView;
 
 import com.jayco.laserprinting.MainActivity;
 import com.jayco.laserprinting.R;
