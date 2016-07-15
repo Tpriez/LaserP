@@ -33,6 +33,6 @@ public class IntroActivity extends Activity {
                 startActivity(intent);
             }
         };
-        handler.sendEmptyMessageDelayed(0, 3000);
+        handler.sendEmptyMessageDelayed(0, 2000);
     }
 }
