@@ -15,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
         myView view = new myView (this);
         container.addView(view);
 
+        /**
+         * Home Test
+         */
     }
 }
