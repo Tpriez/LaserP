@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
-import com.jayco.laserprinting.MainActivity;
+import com.jayco.laserprinting.Painter;
 import com.jayco.laserprinting.R;
 
 /**
@@ -25,15 +25,16 @@ public class IntroActivity extends Activity {
     /**
      * 인트로 화면 지연
      */
-    private void init() {
-        Handler handler = new Handler() {
+    private void init(){
+        Handler handler = new Handler (){
             @Override
-            public void handleMessage(Message msg) {
-                finish();
-                Intent intent = new Intent(IntroActivity.this, MainActivity.class);
+            public void handleMessage(Message msg){
+                finish ();
+                Intent intent = new Intent(IntroActivity.this, Painter.class);
                 startActivity(intent);
+
             }
         };
-        handler.sendEmptyMessageDelayed(0, 2000);
+        handler.sendEmptyMessageDelayed (0,2000);
     }
 }
